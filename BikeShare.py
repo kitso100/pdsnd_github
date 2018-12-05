@@ -209,7 +209,7 @@ def get_city():
     return city
 
 
-def get_table():
+def get_data():
     """
     Asks user to specify what type of data they want to view
 
@@ -233,7 +233,7 @@ def get_table():
 
 def main():
     while True:
-        data = get_table()
+        data = get_data()
         if data == 'stats':
             city, month, day = get_filters()
             df = load_data(city, month, day)
