@@ -1,15 +1,14 @@
 ### Date created
-Include the date you created this project and README file.
+21-Nov-2018
 
 ### Project Title
-Replace the Project Title
+BikeShare data
 
 ### Description
-Describe what your project is about and what it does
+The project takes in user input of what type of bike data they want to see of three specified cities. It is either statistical data or the full data of the usage of bikes.
 
 ### Files used
-Include the files used
+The files used are chicago.csv, new_york_city.csv and washington.csv
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
