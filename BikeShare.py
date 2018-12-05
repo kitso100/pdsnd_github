@@ -187,7 +187,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-def get_city():
+def acquire_city():
     """
     Asks user to specify a city to analyze.
 
@@ -246,7 +246,7 @@ def main():
             df = pd.read_csv(CITY_DATA[city])
             print(df)
         elif data == 'first lines':
-            city = get_city()
+            city = acquire_city()
             df = pd.read_csv(CITY_DATA[city])
             df = df.head()
             print(df)
